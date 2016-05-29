@@ -1,7 +1,7 @@
 module gato(clk, rst, miau);
 input clk, rst;
 output reg miau;
-
+//auxiliar variable
 reg miau_next;
 
 always@(*)
